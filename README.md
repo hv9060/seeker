@@ -1,17 +1,6 @@
-<p align="center"><img src="https://i.imgur.com/iLLX7A8.png"></p>
+<p align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/6/64/Seeker_Media_Logo.png"></p>
 <h4 align="center">
-Get Accurate Location using a Fake Website
 </h4>
-
-<p align="center">
-<img src="https://img.shields.io/badge/Python-3-brightgreen.svg?style=plastic">
-<img src="https://img.shields.io/badge/Python-2-brightgreen.svg?style=plastic">
-<img src="https://img.shields.io/badge/Docker-✔-blue.svg?style=plastic">
-<img src="https://img.shields.io/badge/Termux-✔-red.svg?style=plastic">
-<img src="https://img.shields.io/badge/NetHunter-✔-red.svg?style=plastic">
-</p>
-
-Concept behind Seeker is simple, just like we host phishing pages to get credentials why not host a fake page that requests your loction just like many popular location based websites.
 
 Seeker Hosts a fake website on **In Built PHP Server** and uses **Ngrok**, website asks for Location Permission and if the user allows it, we can get :
 
@@ -41,18 +30,7 @@ Along with Location Information we also get **Device Information** without any p
 
 **Note** : On iPhone due to some reason location accuracy is approximately 65 meters.
 
-## Tested On :
-
-* Kali Linux 2018.2
-* Ubuntu 18.04
-* Arch Linux based Distro
-* Termux
-* Kali Linux (WSL)
-* Parrot OS
-* Zorin OS
-
 ## Installation
-
 ### Ubuntu/Kali Linux
 
 ```bash
@@ -80,8 +58,6 @@ docker pull thewhiteh4t/seeker
 docker run -t seeker
 ```
 
-[![asciicast](https://asciinema.org/a/195052.png)](https://asciinema.org/a/195052)
-
 ### Arch Linux Based Distro
 
 ```bash
@@ -108,8 +84,4 @@ chmod 777 install.sh
 
 > If you are unable to get ngrok url that means ngrok is unable to resolve dns, switch to Mobile Data instead of WiFi and it should work, this is a problem with ngrok.
 
-[![asciicast](https://asciinema.org/a/195830.png)](https://asciinema.org/a/195830)
 
-## Demo
-
-Youtube - https://www.youtube.com/watch?v=ggUGPq4cjSM
